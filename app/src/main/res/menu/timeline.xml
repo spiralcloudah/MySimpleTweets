@@ -5,6 +5,6 @@
     <item
         android:id="@+id/cbTweet"
         android:title="Tweet"
-        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
-        tools:icon="@drawable/ic_launcher" />
+        tools:icon="@drawable/ic_launcher"
+        app:showAsAction="ifRoom"/>
 </menu>

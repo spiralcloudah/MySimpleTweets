@@ -2,7 +2,11 @@ package com.codepath.apps.restclienttemplate.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
+import java.io.Serializable;
+
+@Parcel
 public class Tweet {
 
     // list out the attributes
