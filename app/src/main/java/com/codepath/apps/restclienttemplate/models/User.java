@@ -1,8 +1,13 @@
 package com.codepath.apps.restclienttemplate.models;
 
+import com.loopj.android.http.JsonHttpResponseHandler;
+
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.parceler.Parcel;
+
+import cz.msebera.android.httpclient.Header;
 
 import java.io.Serializable;
 
