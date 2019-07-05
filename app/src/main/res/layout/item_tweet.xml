@@ -18,6 +18,7 @@
         app:srcCompat="@android:color/black" />
 
     <TextView
+        android:autoLink="all"
         android:id="@+id/tvUserName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -32,6 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:autoLink="all"
         android:id="@+id/tvBody"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,6 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
 
     <TextView
+        android:autoLink="all"
         android:id="@+id/tvDate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
